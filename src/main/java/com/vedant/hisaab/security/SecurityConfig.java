@@ -28,7 +28,7 @@ public class SecurityConfig {
 
     private final CustomUserDetailsService userDetailsService;
     private final JwtAuthenticationFilter jwtAuthFilter;
-
+    
     @Value("${app.frontend-url}")
     private String frontendUrl;
 
